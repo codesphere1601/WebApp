@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Sphere IT Solutions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow fixed w-full z-50">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <div class="flex items-center space-x-3">
+        <img src="./static/assets/logo.png" alt="Code Sphere Logo" class="w-24 h-24">
+        <div>
+          <h1 class="text-xl font-bold">CODESPHERE</h1>
+          <p class="text-sm text-gray-500">Empowering Innovation with Code</p>
+        </div>
+      </div>
+      <nav class="space-x-6 hidden md:block">
+        <a href="#home" class="hover:text-blue-600">Home</a>
+        <a href="#services" class="hover:text-blue-600">Services</a>
+        <a href="#portfolio" class="hover:text-blue-600">Portfolio</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+        <a href="#careers" class="hover:text-blue-600">Careers</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-blue-50 to-blue-100 pt-20">
+    <h2 class="text-4xl md:text-5xl font-bold text-blue-700">Innovative IT Solutions for Your Business</h2>
+    <p class="mt-4 text-lg text-gray-600 max-w-2xl">We specialize in App Development, Web Solutions, and Cloud Services that drive growth and efficiency for businesses worldwide.</p>
+    <a href="#contact" class="mt-6 px-6 py-3 bg-blue-600 text-white rounded-xl shadow hover:bg-blue-700 transition">Get a Quote</a>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-20 bg-white">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-bold text-gray-800 mb-12">Our Services</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition">
+          <img src="./static/assets/services/app-dev.jpg" alt="App Development" class="w-full h-100 object-cover rounded-lg mb-4">
+          <h4 class="text-xl font-semibold text-blue-600 mb-3">App Development</h4>
+          <p class="text-gray-600">We design and develop scalable mobile apps tailored to your business needs.</p>
+        </div>
+        <div class="p-6 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition">
+          <img src="./static/assets/services/web-dev.jpg" alt="Web Development" class="w-full h-100 object-cover rounded-lg mb-4">
+          <h4 class="text-xl font-semibold text-blue-600 mb-3">Web Development</h4>
+          <p class="text-gray-600">High-performing, responsive websites that create impact and engage your audience.</p>
+        </div>
+        <div class="p-6 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition">
+          <img src="./static/assets/services/cloud.jpg" alt="Cloud Solutions" class="w-full h-100 object-cover rounded-lg mb-4">
+          <h4 class="text-xl font-semibold text-blue-600 mb-3">Cloud Solutions</h4>
+          <p class="text-gray-600">Secure and optimized cloud infrastructure for modern enterprises.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="py-20 bg-blue-50">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-bold text-gray-800 mb-12">Our Portfolio</h3>
+      <p class="text-gray-600 max-w-2xl mx-auto">A glimpse into some of our successful projects across industries, showcasing our expertise in delivering quality solutions.</p>
+      <div class="grid md:grid-cols-3 gap-6 mt-10">
+        <div class="p-6 bg-white rounded-xl shadow">
+          <img src="astrodrishti.jpg" alt="Astrodrishti" class="w-full h-40 object-cover rounded-lg mb-4">
+          <h4 class="text-xl font-semibold text-blue-600">Astrodrishti</h4>
+          <p class="text-gray-600 mt-2">A modern astrology platform powered by AI for personalized insights.</p>
+        </div>
+        <div class="p-6 bg-white rounded-xl shadow">
+          <img src="init.jpg" alt="Init" class="w-full h-40 object-cover rounded-lg mb-4">
+          <h4 class="text-xl font-semibold text-blue-600">Init</h4>
+          <p class="text-gray-600 mt-2">An innovative platform for startups to collaborate and grow faster.</p>
+        </div>
+        <div class="p-6 bg-white rounded-xl shadow">
+          <img src="hp-police.jpg" alt="HP Police Inventory Management" class="w-full h-40 object-cover rounded-lg mb-4">
+          <h4 class="text-xl font-semibold text-blue-600">Inventory Management</h4>
+          <p class="text-gray-600 mt-2">A robust system for managing inventory and logistics for Himachal Police.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-bold text-gray-800 mb-8">Get in Touch</h3>
+      <p class="text-gray-600 mb-12">Have a project in mind? Fill out the form below and we’ll get back to you soon.</p>
+      <form class="max-w-2xl mx-auto grid gap-6 text-left">
+        <input type="text" placeholder="Your Name" class="w-full p-3 border rounded-lg">
+        <input type="email" placeholder="Your Email" class="w-full p-3 border rounded-lg">
+        <input type="text" placeholder="Subject" class="w-full p-3 border rounded-lg">
+        <textarea placeholder="Your Message" rows="5" class="w-full p-3 border rounded-lg"></textarea>
+        <button type="submit" class="px-6 py-3 bg-blue-600 text-white rounded-xl shadow hover:bg-blue-700 transition">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Careers -->
+  <section id="careers" class="py-20 bg-blue-50">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-bold text-gray-800 mb-8">Careers at Code Sphere</h3>
+      <p class="text-gray-600 max-w-2xl mx-auto">Join our dynamic team of innovators and engineers. Explore opportunities to grow your career with us.</p>
+      <a href="#contact" class="mt-6 inline-block px-6 py-3 bg-blue-600 text-white rounded-xl shadow hover:bg-blue-700 transition">Apply Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-6 text-center">
+    <p>© 2025 Code Sphere IT Solutions. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
